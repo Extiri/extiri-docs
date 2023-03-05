@@ -4,7 +4,7 @@
 
 Method: `GET`
 
-This endpoint will delete specified user. The account will be deleted within 7 days. Account can be restored by logging in during this period.
+This endpoint will log out specified user. Token will be invalidated.
 
 ## Parameters
 ### Headers

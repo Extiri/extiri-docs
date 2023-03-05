@@ -4,7 +4,7 @@
 
 Method: `POST`
 
-This endpoint will delete specified user. The account will be deleted within 7 days. Account can be restored by logging in during this period.
+This endpoint will log in the user using credentials provided in Authorization header. It returns a token that is used in calls to other endpoints.
 
 ## Parameters
 ### Headers
